@@ -109,7 +109,7 @@ h1::after {
     width: 1000px;
     margin: 2rem auto;
     padding: 2rem;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 16px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(8px);
@@ -320,6 +320,9 @@ h1::after {
         flex-direction: column;
         align-items: center;
         gap: 1rem;
+        min-height: calc(100vh - 200px);
+        position: relative;
+        padding-bottom: 80px;
     }
     
     .rune-section {
@@ -331,6 +334,7 @@ h1::after {
     
     .rune-display {
         padding: 1rem;
+        background: rgba(0, 0, 0, 0.3);
     }
     
     .rune-display img {
@@ -344,6 +348,7 @@ h1::after {
     
     .question-section {
         padding: 1rem;
+        background: rgba(0, 0, 0, 0.3);
     }
 
     .question-section h2 {
@@ -358,17 +363,29 @@ h1::after {
     .option-button {
         padding: 0.8rem;
         font-size: 0.9rem;
+        background: rgba(255, 255, 255, 0.05);
     }
 
     .next-button {
-        width: 100%;
-        max-width: 250px;
-        padding: 0.8rem;
-        font-size: 1rem;
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        max-width: 300px;
+        padding: 1rem;
+        font-size: 1.1rem;
+        background: var(--accent-color);
+        color: var(--primary-color);
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        z-index: 100;
     }
 
     .score-container {
         padding: 0.8rem;
+        background: rgba(0, 0, 0, 0.3);
     }
 
     .score-label {
@@ -384,6 +401,7 @@ h1::after {
     .game-container {
         padding: 0.8rem;
         margin: 0.5rem auto;
+        background: rgba(0, 0, 0, 0.4);
     }
 
     .score-item {
@@ -401,6 +419,12 @@ h1::after {
     .option-button {
         padding: 0.7rem;
         font-size: 0.85rem;
+    }
+
+    .next-button {
+        bottom: 15px;
+        padding: 0.9rem;
+        font-size: 1rem;
     }
 }
 
