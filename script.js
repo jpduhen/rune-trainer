@@ -184,8 +184,8 @@ function updateBackground(runeName) {
         'MANNAZ': '20',
         'LAGUZ': '21',
         'INGUZ': '22',
-        'DAGAZ': '23',
-        'OTHALA': '24'
+        'OTHALA': '23',
+        'DAGAZ': '24'
     };
 
     const number = runeNumber[runeName.toUpperCase()];
@@ -232,8 +232,8 @@ function updateRuneImage(runeName) {
             'MANNAZ': '20',
             'LAGUZ': '21',
             'INGUZ': '22',
-            'DAGAZ': '23',
-            'OTHALA': '24'
+            'OTHALA': '23',
+            'DAGAZ': '24'
         };
 
         const number = runeNumber[runeName.toUpperCase()];
@@ -370,7 +370,7 @@ function loadNextRune() {
             'HAGALAZ': '09', 'NAUDHIZ': '10', 'ISA': '11', 'JERA': '12',
             'EIHWAZ': '13', 'PERTHRO': '14', 'ALGIZ': '15', 'SOWILO': '16',
             'TIWAZ': '17', 'BERKANA': '18', 'EHWAZ': '19', 'MANNAZ': '20',
-            'LAGUZ': '21', 'INGUZ': '22', 'DAGAZ': '23', 'OTHALA': '24'
+            'LAGUZ': '21', 'INGUZ': '22', 'OTHALA': '23', 'DAGAZ': '24'
         };
         
         const number = runeNumber[currentRune.name.toUpperCase()];
