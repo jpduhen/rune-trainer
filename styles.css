@@ -295,12 +295,23 @@ h1::after {
 /* Responsive design voor kleinere schermen */
 @media (max-width: 1024px) {
     .game-container {
-        width: 90%;
-        max-width: 800px;
+        width: 95%;
+        max-width: 600px;
+        padding: 1rem;
+        margin: 1rem auto;
     }
     
     .questions-container {
         flex-direction: column;
+    }
+
+    .score-container {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .score-item {
+        flex: 1 1 calc(50% - 0.5rem);
     }
 }
 
@@ -308,29 +319,88 @@ h1::after {
     .game-content {
         flex-direction: column;
         align-items: center;
+        gap: 1rem;
     }
     
     .rune-section {
         flex: none;
         width: 100%;
-        max-width: 300px;
-        margin-bottom: 2rem;
+        max-width: 250px;
+        margin-bottom: 1rem;
     }
     
     .rune-display {
-        padding-top: 0;
+        padding: 1rem;
+    }
+    
+    .rune-display img {
+        max-width: 200px;
     }
     
     .questions-container {
         width: 100%;
+        gap: 1rem;
     }
     
-    h1::before {
-        left: 5%;
+    .question-section {
+        padding: 1rem;
     }
-    
-    h1::after {
-        right: 5%;
+
+    .question-section h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .options {
+        gap: 0.5rem;
+    }
+
+    .option-button {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .next-button {
+        width: 100%;
+        max-width: 250px;
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .score-container {
+        padding: 0.8rem;
+    }
+
+    .score-label {
+        font-size: 0.7rem;
+    }
+
+    .score-value {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .game-container {
+        padding: 0.8rem;
+        margin: 0.5rem auto;
+    }
+
+    .score-item {
+        flex: 1 1 100%;
+    }
+
+    .rune-display img {
+        max-width: 180px;
+    }
+
+    .question-section h2 {
+        font-size: 1.1rem;
+    }
+
+    .option-button {
+        padding: 0.7rem;
+        font-size: 0.85rem;
     }
 }
 
