@@ -202,7 +202,7 @@ function updateBackground(runeName) {
         document.body.appendChild(overlay);
 
         // Stel de achtergrond in
-        const backgroundPath = `assets/backgrounds/${number}-${runeName.toLowerCase() === 'kenaz' ? 'kennaz' : runeName.toLowerCase()}.webp`;
+        const backgroundPath = `assets/backgrounds/${number}-${runeName.toLowerCase()}.webp`;
         overlay.style.backgroundImage = `url('${backgroundPath}')`;
     }
 }
