@@ -132,15 +132,15 @@ const RUNES = [
         imageUrl: "assets/backgrounds/22-inguz.webp"
     },
     {
-        id: 24,
-        name: "Othala",
-        meaning: "Erfenis, Voorouders, Bezittingen, Erfgoed, Ervaring, Waarde, Thuis",
-        imageUrl: "assets/backgrounds/24-othala.webp"
-    },
-    {
         id: 23,
         name: "Dagaz",
         meaning: "Dageraad, Ontwaken, Zekerheid, Verlichting, Voltooiing, Hoop, Transformatie",
         imageUrl: "assets/backgrounds/23-dagaz.webp"
+    },
+    {
+        id: 24,
+        name: "Othala",
+        meaning: "Erfenis, Voorouders, Bezittingen, Erfgoed, Ervaring, Waarde, Thuis",
+        imageUrl: "assets/backgrounds/24-othala.webp"
     }
 ]; 
