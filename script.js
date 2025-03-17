@@ -167,7 +167,7 @@ function updateBackground(runeName) {
         'THURISAZ': '03',
         'ANSUZ': '04',
         'RAIDHO': '05',
-        'KENAZ': '06',
+        'KENNAZ': '06',
         'GEBO': '07',
         'WUNJO': '08',
         'HAGALAZ': '09',
@@ -216,7 +216,7 @@ function updateRuneImage(runeName) {
             'THURISAZ': '03',
             'ANSUZ': '04',
             'RAIDHO': '05',
-            'KENAZ': '06',
+            'KENNAZ': '06',
             'GEBO': '07',
             'WUNJO': '08',
             'HAGALAZ': '09',
@@ -367,7 +367,7 @@ function loadNextRune() {
     if (runeImage) {
         const runeNumber = {
             'FEHU': '01', 'URUZ': '02', 'THURISAZ': '03', 'ANSUZ': '04',
-            'RAIDHO': '05', 'KENAZ': '06', 'GEBO': '07', 'WUNJO': '08',
+            'RAIDHO': '05', 'KENNAZ': '06', 'GEBO': '07', 'WUNJO': '08',
             'HAGALAZ': '09', 'NAUDHIZ': '10', 'ISA': '11', 'JERA': '12',
             'EIHWAZ': '13', 'PERTHRO': '14', 'ALGIZ': '15', 'SOWILO': '16',
             'TIWAZ': '17', 'BERKANA': '18', 'EHWAZ': '19', 'MANNAZ': '20',
