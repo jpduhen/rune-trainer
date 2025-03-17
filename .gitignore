@@ -1,0 +1,25 @@
+# OS bestanden
+.DS_Store
+Thumbs.db
+
+# Editor bestanden
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (als je later npm gebruikt)
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Lokale omgevingsvariabelen
+.env
+.env.local
+.env.*.local
+
+# Build output (als je later een build proces toevoegt)
+dist/
+build/ 
