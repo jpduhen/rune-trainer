@@ -16,7 +16,7 @@ const runeThemes = {
     "FEHU": {
         primary: '#DAA520',  // Goud voor rijkdom
         secondary: '#8B4513',  // Bruin voor vee
-        pattern: 'repeating-linear-gradient(45deg, rgba(218, 165, 32, 0.1) 0px, rgba(218, 165, 32, 0.1) 2px, transparent 2px, transparent 10px)',
+        pattern: 'repeating-linear-gradient(45deg, rgba(218, 165, 32, 0.1)  0%, transparent 50%)',
         background: 'assets/backgrounds/01-fehu.webp'
     },
     "URUZ": {
@@ -28,7 +28,7 @@ const runeThemes = {
     "THURISAZ": {
         primary: '#4B0082',
         secondary: '#FFD700',
-        pattern: 'linear-gradient(45deg, rgba(75, 0, 130, 0.2) 25%, transparent 25%, transparent 50%, rgba(75, 0, 130, 0.2) 50%, rgba(75, 0, 130, 0.2) 75%, transparent 75%, transparent)',
+        pattern: 'linear-gradient(45deg, rgba(75, 0, 130, 0.2)  0%, transparent 50%)',
         background: 'assets/backgrounds/03-thurisaz.webp'
     },
     "ANSUZ": {
@@ -40,19 +40,19 @@ const runeThemes = {
     "RAIDHO": {
         primary: '#556B2F',
         secondary: '#8B4513',
-        pattern: 'repeating-linear-gradient(-45deg, rgba(85, 107, 47, 0.1) 0px, rgba(85, 107, 47, 0.1) 2px, transparent 2px, transparent 10px)',
+        pattern: 'repeating-linear-gradient(-45deg, rgba(85, 107, 47, 0.1) 0%, transparent 50%)',
         background: 'assets/backgrounds/05-raidho.webp'
     },
     "KENNAZ": {
         primary: '#8B0000',
         secondary: '#FFA500',
-        pattern: 'radial-gradient(circle at 50% 50%, rgba(255, 165, 0, 0.2) 0%, transparent 60%)',
+        pattern: 'radial-gradient(circle at 50% 50%, rgba(255, 165, 0, 0.2) 0%, transparent 50%)',
         background: 'assets/backgrounds/06-kennaz.webp'
     },
     "GEBO": {
         primary: '#4682B4',
         secondary: '#DAA520',
-        pattern: 'linear-gradient(0deg, rgba(70, 130, 180, 0.1) 25%, transparent 25%, transparent 50%, rgba(70, 130, 180, 0.1) 50%, rgba(70, 130, 180, 0.1) 75%, transparent 75%, transparent)',
+        pattern: 'linear-gradient(0deg, rgba(70, 130, 180, 0.1) 0%, transparent 50%)',
         background: 'assets/backgrounds/07-gebo.webp'
     },
     "WUNJO": {
@@ -64,7 +64,7 @@ const runeThemes = {
     "HAGALAZ": {
         primary: '#708090',
         secondary: '#F0F8FF',
-        pattern: 'radial-gradient(circle at 30% 30%, rgba(240, 248, 255, 0.1) 0%, transparent 30%)',
+        pattern: 'radial-gradient(circle at 30% 30%, rgba(240, 248, 255, 0.1) 0%, transparent 50%)',
         background: 'assets/backgrounds/09-hagalaz.webp'
     },
     "NAUTHIZ": {
@@ -82,7 +82,7 @@ const runeThemes = {
     "JERA": {
         primary: '#8B4513',
         secondary: '#DAA520',
-        pattern: 'repeating-linear-gradient(45deg, rgba(139, 69, 19, 0.1) 0px, rgba(139, 69, 19, 0.1) 2px, transparent 2px, transparent 10px)',
+        pattern: 'repeating-linear-gradient(45deg, rgba(139, 69, 19, 0.1) 0%, transparent 50%)',
         background: 'assets/backgrounds/12-jera.webp'
     },
     "EIHWAZ": {
@@ -94,7 +94,7 @@ const runeThemes = {
     "PERTHRO": {
         primary: '#4B0082',
         secondary: '#800080',
-        pattern: 'linear-gradient(45deg, rgba(75, 0, 130, 0.2) 25%, transparent 25%, transparent 50%, rgba(75, 0, 130, 0.2) 50%, rgba(75, 0, 130, 0.2) 75%, transparent 75%, transparent)',
+        pattern: 'linear-gradient(45deg, rgba(75, 0, 130, 0.2) 0%, transparent 50%)',
         background: 'assets/backgrounds/14-perthro.webp'
     },
     "ALGIZ": {
@@ -106,13 +106,13 @@ const runeThemes = {
     "SOWILO": {
         primary: '#FFD700',
         secondary: '#FFA500',
-        pattern: 'radial-gradient(circle at 50% 50%, rgba(255, 215, 0, 0.2) 0%, transparent 60%)',
+        pattern: 'radial-gradient(circle at 50% 50%, rgba(255, 215, 0, 0.2) 0%, transparent 50%)',
         background: 'assets/backgrounds/16-sowilo.webp'
     },
     "TIWAZ": {
         primary: '#8B0000',
         secondary: '#4B0082',
-        pattern: 'linear-gradient(45deg, rgba(139, 0, 0, 0.2) 25%, transparent 25%, transparent 50%, rgba(139, 0, 0, 0.2) 50%, rgba(139, 0, 0, 0.2) 75%, transparent 75%, transparent)',
+        pattern: 'linear-gradient(45deg, rgba(139, 0, 0, 0.2) 0%, transparent 50%)',
         background: 'assets/backgrounds/17-tiwaz.webp'
     },
     "BERKANA": {
@@ -124,7 +124,7 @@ const runeThemes = {
     "EHWAZ": {
         primary: '#8B4513',
         secondary: '#A0522D',
-        pattern: 'repeating-linear-gradient(-45deg, rgba(139, 69, 19, 0.1) 0px, rgba(139, 69, 19, 0.1) 2px, transparent 2px, transparent 10px)',
+        pattern: 'repeating-linear-gradient(-45deg, rgba(139, 69, 19, 0.1) 0%, transparent 50%)',
         background: 'assets/backgrounds/19-ehwaz.webp'
     },
     "MANNAZ": {
@@ -148,7 +148,7 @@ const runeThemes = {
     "OTHALA": {
         primary: '#8B4513',
         secondary: '#DAA520',
-        pattern: 'repeating-linear-gradient(45deg, rgba(139, 69, 19, 0.1) 0px, rgba(139, 69, 19, 0.1) 2px, transparent 2px, transparent 10px)',
+        pattern: 'repeating-linear-gradient(45deg, rgba(139, 69, 19, 0.1) 0%, transparent 50%)',
         background: 'assets/backgrounds/23-othala.webp'
     },
     "DAGAZ": {
