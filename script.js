@@ -43,7 +43,7 @@ const runeThemes = {
         pattern: 'repeating-linear-gradient(-45deg, rgba(85, 107, 47, 0.1) 0px, rgba(85, 107, 47, 0.1) 2px, transparent 2px, transparent 10px)',
         background: 'assets/backgrounds/05-raidho.webp'
     },
-    "KENAZ": {
+    "KENNAZ": {
         primary: '#8B0000',
         secondary: '#FFA500',
         pattern: 'radial-gradient(circle at 50% 50%, rgba(255, 165, 0, 0.2) 0%, transparent 60%)',
@@ -70,7 +70,7 @@ const runeThemes = {
     "NAUTHIZ": {
         primary: '#2F4F4F',
         secondary: '#8B0000',
-        pattern: 'repeating-linear-gradient(90deg, rgba(139, 0, 0, 0.1) 0px, rgba(139, 0, 0, 0.1) 2px, transparent 2px, transparent 10px)',
+        pattern: 'repeating-linear-gradient(90deg, rgba(139, 0, 0, 0.1)  0%, transparent 50%)',
         background: 'assets/backgrounds/10-nauthiz.webp'
     },
     "ISA": {
