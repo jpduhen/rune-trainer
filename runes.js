@@ -31,9 +31,9 @@ const RUNES = [
     },
     {
         id: 6,
-        name: "Kenaz",
+        name: "Kennaz",
         meaning: "Toorts, Visie, Creativiteit, Inspiratie, Verbetering, Vitaliteit",
-        imageUrl: "assets/backgrounds/06-kenaz.webp"
+        imageUrl: "assets/backgrounds/06-kennaz.webp"
     },
     {
         id: 7,
@@ -133,14 +133,14 @@ const RUNES = [
     },
     {
         id: 23,
-        name: "Dagaz",
-        meaning: "Dageraad, Ontwaken, Zekerheid, Verlichting, Voltooiing, Hoop, Transformatie",
-        imageUrl: "assets/backgrounds/23-dagaz.webp"
+        name: "Othala",
+        meaning: "Erfenis, Voorouders, Bezittingen, Erfgoed, Ervaring, Waarde, Thuis",
+        imageUrl: "assets/backgrounds/23-othala.webp"
     },
     {
         id: 24,
-        name: "Othala",
-        meaning: "Erfenis, Voorouders, Bezittingen, Erfgoed, Ervaring, Waarde, Thuis",
-        imageUrl: "assets/backgrounds/24-othala.webp"
+        name: "Dagaz",
+        meaning: "Dageraad, Ontwaken, Zekerheid, Verlichting, Voltooiing, Hoop, Transformatie",
+        imageUrl: "assets/backgrounds/24-dagaz.webp"
     }
 ]; 
