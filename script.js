@@ -202,7 +202,8 @@ function updateBackground(runeName) {
         document.body.appendChild(overlay);
 
         // Stel de achtergrond in
-        overlay.style.backgroundImage = `url('assets/backgrounds/${number}-${runeName.toLowerCase()}.webp')`;
+        const backgroundPath = `assets/backgrounds/${number}-${runeName.toLowerCase() === 'kenaz' ? 'kennaz' : runeName.toLowerCase()}.webp`;
+        overlay.style.backgroundImage = `url('${backgroundPath}')`;
     }
 }
 
@@ -375,7 +376,7 @@ function loadNextRune() {
         
         const number = runeNumber[currentRune.name.toUpperCase()];
         if (number) {
-            const imagePath = `assets/images/${number}-${currentRune.name.toLowerCase()}.png`;
+            const imagePath = `assets/images/${number}-${currentRune.name.toLowerCase() === 'kenaz' ? 'kennaz' : currentRune.name.toLowerCase() === 'dagaz' ? 'dagaz' : currentRune.name.toLowerCase()}.png`;
             
             const newImage = new Image();
             newImage.onload = () => {
