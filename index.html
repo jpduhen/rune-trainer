@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rune Trainer</title>
+    <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="game-container">
+        <div class="score-container">
+            <div class="score-item">
+                <div class="score-label">Score</div>
+                <div class="score-value" id="current-score">0/48</div>
+            </div>
+            <div class="score-item">
+                <div class="score-label">Tijd</div>
+                <div class="score-value" id="timer">0:00</div>
+            </div>
+            <div class="score-item">
+                <div class="score-label">Beste Score</div>
+                <div class="score-value" id="high-score">0</div>
+            </div>
+            <div class="score-item">
+                <div class="score-label">Beste Tijd</div>
+                <div class="score-value" id="best-time">-</div>
+            </div>
+        </div>
+        <div class="game-content">
+            <div class="rune-section">
+                <div class="rune-display">
+                    <img id="runeImage" src="assets/images/01-fehu.png" alt="Rune">
+                </div>
+                <button id="nextButton" class="next-button" disabled>Volgende</button>
+            </div>
+            <div class="questions-container">
+                <div class="question-section">
+                    <h2>Wat is de naam van deze rune?</h2>
+                    <div class="options" id="name-options"></div>
+                </div>
+                <div class="question-section">
+                    <h2>Wat is de betekenis van deze rune?</h2>
+                    <div class="options" id="meaning-options"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Audio elementen voor geluidseffecten -->
+    <audio id="correct-sound" preload="auto">
+        <source src="assets/sounds/correct.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="incorrect-sound" preload="auto">
+        <source src="assets/sounds/incorrect.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script src="runes.js?v=1"></script>
+    <script src="script.js?v=1"></script>
+</body>
+</html> 
