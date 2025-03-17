@@ -139,7 +139,7 @@ const runeThemes = {
         pattern: 'radial-gradient(circle at 50% 50%, rgba(0, 0, 139, 0.2) 0%, transparent 50%)',
         background: 'assets/backgrounds/21-laguz.webp'
     },
-    "INGWAZ": {
+    "INGUZ": {
         primary: '#228B22',
         secondary: '#8B4513',
         pattern: 'radial-gradient(circle at 50% 50%, rgba(34, 139, 34, 0.2) 0%, transparent 50%)',
