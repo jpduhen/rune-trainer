@@ -239,7 +239,7 @@ function updateRuneImage(runeName) {
 
         const number = runeNumber[runeName.toUpperCase()];
         if (number) {
-            const imagePath = `assets/images/${number}-${runeName.toLowerCase() === 'kenaz' ? 'Kenaz' : runeName.toLowerCase()}.png`;
+            const imagePath = `assets/images/${number}-${runeName.toLowerCase()}.png`;
             runeImage.src = imagePath;
             runeImage.alt = `Rune ${runeName}`;
         }
