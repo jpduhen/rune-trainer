@@ -43,7 +43,7 @@ const runeThemes = {
         pattern: 'repeating-linear-gradient(-45deg, rgba(85, 107, 47, 0.1) 0%, transparent 50%)',
         background: 'assets/backgrounds/05-raidho.webp'
     },
-    "Kenaz": {
+    "KENAZ": {
         primary: '#8B0000',
         secondary: '#FFA500',
         pattern: 'radial-gradient(circle at 50% 50%, rgba(255, 165, 0, 0.2) 0%, transparent 50%)',
@@ -109,7 +109,7 @@ const runeThemes = {
         pattern: 'radial-gradient(circle at 50% 50%, rgba(255, 215, 0, 0.2) 0%, transparent 50%)',
         background: 'assets/backgrounds/16-sowilo.webp'
     },
-    "Teiwaz": {
+    "TEIWAZ": {
         primary: '#8B0000',
         secondary: '#4B0082',
         pattern: 'linear-gradient(45deg, rgba(139, 0, 0, 0.2) 0%, transparent 50%)',
@@ -145,7 +145,7 @@ const runeThemes = {
         pattern: 'radial-gradient(circle at 50% 50%, rgba(34, 139, 34, 0.2) 0%, transparent 50%)',
         background: 'assets/backgrounds/22-inguz.webp'
     },
-    "Othila": {
+    "OTHILA": {
         primary: '#8B4513',
         secondary: '#DAA520',
         pattern: 'repeating-linear-gradient(45deg, rgba(139, 69, 19, 0.1) 0%, transparent 50%)',
