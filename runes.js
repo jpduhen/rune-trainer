@@ -134,7 +134,7 @@ const RUNES = [
     {
         id: 23,
         name: "Othila",
-        meaning: "rfenis, Voorouders, Cultuur, Erfgoed, Normen en Waarden, Thuis, Scheiding, Keuze",
+        meaning: "Erfenis, Voorouders, Cultuur, Erfgoed, Normen en Waarden, Thuis, Scheiding, Keuze",
         imageUrl: "assets/backgrounds/23-othila.webp"
     },
     {
