@@ -31,7 +31,7 @@ const RUNES = [
     },
     {
         id: 6,
-        name: "Kenaz",
+        name: "Kennaz",
         meaning: "Toorts, Reinigend vuur, Zelfbeschikking, Mogelijkheden, Hulp, Nieuw begrip",
         imageUrl: "assets/backgrounds/06-kennaz.webp"
     },
