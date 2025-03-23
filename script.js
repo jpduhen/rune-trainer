@@ -47,7 +47,7 @@ const runeThemes = {
         primary: '#8B0000',
         secondary: '#FFA500',
         pattern: 'radial-gradient(circle at 50% 50%, rgba(255, 165, 0, 0.2) 0%, transparent 50%)',
-        background: 'assets/backgrounds/06-Kenaz.webp'
+        background: 'assets/backgrounds/06-kenaz.webp'
     },
     "GEBO": {
         primary: '#4682B4',
@@ -113,7 +113,7 @@ const runeThemes = {
         primary: '#8B0000',
         secondary: '#4B0082',
         pattern: 'linear-gradient(45deg, rgba(139, 0, 0, 0.2) 0%, transparent 50%)',
-        background: 'assets/backgrounds/17-Teiwaz.webp'
+        background: 'assets/backgrounds/17-teiwaz.webp'
     },
     "BERKANA": {
         primary: '#228B22',
@@ -149,7 +149,7 @@ const runeThemes = {
         primary: '#8B4513',
         secondary: '#DAA520',
         pattern: 'repeating-linear-gradient(45deg, rgba(139, 69, 19, 0.1) 0%, transparent 50%)',
-        background: 'assets/backgrounds/23-Othila.webp'
+        background: 'assets/backgrounds/23-othila.webp'
     },
     "DAGAZ": {
         primary: '#FFD700',
@@ -167,7 +167,7 @@ function updateBackground(runeName) {
         'THURISAZ': '03',
         'ANSUZ': '04',
         'RAIDHO': '05',
-        'Kenaz': '06',
+        'KENAZ': '06',
         'GEBO': '07',
         'WUNJO': '08',
         'HAGALAZ': '09',
@@ -178,13 +178,13 @@ function updateBackground(runeName) {
         'PERTHRO': '14',
         'ALGIZ': '15',
         'SOWILO': '16',
-        'Teiwaz': '17',
+        'TEIWAZ': '17',
         'BERKANA': '18',
         'EHWAZ': '19',
         'MANNAZ': '20',
         'LAGUZ': '21',
         'INGUZ': '22',
-        'Othila': '23',
+        'OTHILA': '23',
         'DAGAZ': '24'
     };
 
@@ -216,7 +216,7 @@ function updateRuneImage(runeName) {
             'THURISAZ': '03',
             'ANSUZ': '04',
             'RAIDHO': '05',
-            'Kenaz': '06',
+            'KENAZ': '06',
             'GEBO': '07',
             'WUNJO': '08',
             'HAGALAZ': '09',
@@ -227,13 +227,13 @@ function updateRuneImage(runeName) {
             'PERTHRO': '14',
             'ALGIZ': '15',
             'SOWILO': '16',
-            'Teiwaz': '17',
+            'TEIWAZ': '17',
             'BERKANA': '18',
             'EHWAZ': '19',
             'MANNAZ': '20',
             'LAGUZ': '21',
             'INGUZ': '22',
-            'Othila': '23',
+            'OTHILA': '23',
             'DAGAZ': '24'
         };
 
@@ -367,11 +367,11 @@ function loadNextRune() {
     if (runeImage) {
         const runeNumber = {
             'FEHU': '01', 'URUZ': '02', 'THURISAZ': '03', 'ANSUZ': '04',
-            'RAIDHO': '05', 'Kenaz': '06', 'GEBO': '07', 'WUNJO': '08',
+            'RAIDHO': '05', 'KENAZ': '06', 'GEBO': '07', 'WUNJO': '08',
             'HAGALAZ': '09', 'NAUTHIZ': '10', 'ISA': '11', 'JERA': '12',
             'EIHWAZ': '13', 'PERTHRO': '14', 'ALGIZ': '15', 'SOWILO': '16',
-            'Teiwaz': '17', 'BERKANA': '18', 'EHWAZ': '19', 'MANNAZ': '20',
-            'LAGUZ': '21', 'INGUZ': '22', 'Othila': '23', 'DAGAZ': '24'
+            'TEIWAZ': '17', 'BERKANA': '18', 'EHWAZ': '19', 'MANNAZ': '20',
+            'LAGUZ': '21', 'INGUZ': '22', 'OTHILA': '23', 'DAGAZ': '24'
         };
         
         const number = runeNumber[currentRune.name.toUpperCase()];
