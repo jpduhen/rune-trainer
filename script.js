@@ -376,7 +376,7 @@ function loadNextRune() {
         
         const number = runeNumber[currentRune.name.toUpperCase()];
         if (number) {
-            const imagePath = `assets/images/${number}-${currentRune.name.toLowerCase() === 'kenaz' ? 'Kenaz' : currentRune.name.toLowerCase() === 'dagaz' ? 'dagaz' : currentRune.name.toLowerCase()}.png`;
+            const imagePath = `assets/images/${number}-${currentRune.name.toLowerCase()}.png`;
             
             const newImage = new Image();
             newImage.onload = () => {
