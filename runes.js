@@ -33,7 +33,7 @@ const RUNES = [
         id: 6,
         name: "Kenaz",
         meaning: "Toorts, Reinigend vuur, Zelfbeschikking, Mogelijkheden, Hulp, Nieuw begrip",
-        imageUrl: "assets/backgrounds/06-Kenaz.webp"
+        imageUrl: "assets/backgrounds/06-kenaz.webp"
     },
     {
         id: 7,
@@ -99,7 +99,7 @@ const RUNES = [
         id: 17,
         name: "Teiwaz",
         meaning: "Strijder, Opoffering, Rechtvaardigheid, God Tyr, Consequenties, Zuiverheid, Eer",
-        imageUrl: "assets/backgrounds/17-Teiwaz.webp"
+        imageUrl: "assets/backgrounds/17-teiwaz.webp"
     },
     {
         id: 18,
@@ -135,7 +135,7 @@ const RUNES = [
         id: 23,
         name: "Othila",
         meaning: "rfenis, Voorouders, Cultuur, Erfgoed, Normen en Waarden, Thuis, Scheiding, Keuze",
-        imageUrl: "assets/backgrounds/23-Othila.webp"
+        imageUrl: "assets/backgrounds/23-othila.webp"
     },
     {
         id: 24,
