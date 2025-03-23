@@ -2,145 +2,145 @@ const RUNES = [
     {
         id: 1,
         name: "Fehu",
-        meaning: "Rijkdom, Vee, Voorspoed, Overvloed, Vruchtbaarheid, Creativiteit",
+        meaning: "Rijkdom, Vee, Voorspoed, Bezit, Verantwoordelijkheid, Welvaart, Werk",
         imageUrl: "assets/backgrounds/01-fehu.webp"
     },
     {
         id: 2,
         name: "Uruz",
-        meaning: "Oeros, Kracht, Vitaliteit, Wildheid, Moed, Uithoudingsvermogen",
+        meaning: "Oeros, Kracht, Moed, Vastberadenheid, Capaciteit",
         imageUrl: "assets/backgrounds/02-uruz.webp"
     },
     {
         id: 3,
         name: "Thurisaz",
-        meaning: "Doorn, Reactie, Verdediging, Conflict, Catharsis, Regeneratie",
+        meaning: "Doorn, Zelfbescherming, Voorzichtigheid, Regeneratie, Spirituele moed",
         imageUrl: "assets/backgrounds/03-thurisaz.webp"
     },
     {
         id: 4,
         name: "Ansuz",
-        meaning: "Riviermonding, Mond, Communicatie, Begrip, Inspiratie, Wijsheid",
+        meaning: "Wijsheid, Doorgeven, Kennis, Uitwisselen, Overdenking, Leraar en leerling",
         imageUrl: "assets/backgrounds/04-ansuz.webp"
     },
     {
         id: 5,
         name: "Raidho",
-        meaning: "Wagen, Reizen, Ritme, Spontaniteit, Evolutie, Beslissingen",
+        meaning: "Rad, Reizen, Vooruitgang, Actie, Beweging, Evolutie",
         imageUrl: "assets/backgrounds/05-raidho.webp"
     },
     {
         id: 6,
         name: "Kennaz",
-        meaning: "Toorts, Visie, Creativiteit, Inspiratie, Verbetering, Vitaliteit",
+        meaning: "Toorts, Reinigend vuur, Zelfbeschikking, Mogelijkheden, Hulp, Nieuw begrip",
         imageUrl: "assets/backgrounds/06-kennaz.webp"
     },
     {
         id: 7,
         name: "Gebo",
-        meaning: "Gift, Balans, Uitwisseling, Partnerschap, Vrijgevigheid, Relaties",
+        meaning: "Geschenk, Energetische balans, Partnerschap, Uitwisseling, Vrijgevigheid",
         imageUrl: "assets/backgrounds/07-gebo.webp"
     },
     {
         id: 8,
         name: "Wunjo",
-        meaning: "Vreugde, Plezier, Comfort, Harmonie, Voorspoed, Beloning, Succes",
+        meaning: "Vreugde, Geluk, Harmonie, Genieten, Succes, Erkenning, Verandering, Welzijn",
         imageUrl: "assets/backgrounds/08-wunjo.webp"
     },
     {
         id: 9,
         name: "Hagalaz",
-        meaning: "Hagel, Natuurkracht, Beproeving, Obstakels Overwinnen, Chaos, Vernieuwing",
+        meaning: "Hagelbui, Beproeving, Wanhoop, Opruimen, Overwinnen, Chaos, Opruimen, Dood",
         imageUrl: "assets/backgrounds/09-hagalaz.webp"
     },
     {
         id: 10,
         name: "Nauthiz",
-        meaning: "Nood, Beperking, Conflict, Wilskracht, Uithoudingsvermogen, Zelfredzaamheid",
+        meaning: "Noodzaak, Basisbehoefte, Conflict, Wilskracht, Overleven, Zelfreflectie, Ongeduld, Perfectionisme",
         imageUrl: "assets/backgrounds/10-nauthiz.webp"
     },
     {
         id: 11,
         name: "Isa",
-        meaning: "IJs, Helderheid, Stilstand, Uitdagingen, Introspectie, Observeren & Wachten",
+        meaning: "IJs, Stilstand, Rigiditeit, Stagnatie, Introspectie, Observeren, Hulp vragen",
         imageUrl: "assets/backgrounds/11-isa.webp"
     },
     {
         id: 12,
         name: "Jera",
-        meaning: "Jaar, Cycli, Voltooiing, Veranderingen, Oogst, Beloning Ontvangen",
+        meaning: "Jaar, Cyclus, Dansen, Veranderingen, Oogst, Beloning, Overvloed, Geboorte",
         imageUrl: "assets/backgrounds/12-jera.webp"
     },
     {
         id: 13,
         name: "Eihwaz",
-        meaning: "Taxusboom, Balans, Verlichting, Dood, De Wereldboom, Kracht",
+        meaning: "Taxusboom, Wereldbeeld, Yggdrassyl, Balans, Wereldboom, Voorouders eren",
         imageUrl: "assets/backgrounds/13-eihwaz.webp"
     },
     {
         id: 14,
         name: "Perthro",
-        meaning: "Dobbelsteenbeker, Lot, Kans, Mysterie, Bestemming, Geheimen",
+        meaning: "Dobbelbeker, Lot, Kans, Mysterie, Nornen, Geheimen",
         imageUrl: "assets/backgrounds/14-perthro.webp"
     },
     {
         id: 15,
         name: "Algiz",
-        meaning: "Eland, Bescherming, Verdediging, Instinct, Groepsinspanning, Bescherming",
+        meaning: "Zwaan, Eland, Eik, Vertrouwen, Intuïtie, Eigen Keuze, Bescherming",
         imageUrl: "assets/backgrounds/15-algiz.webp"
     },
     {
         id: 16,
         name: "Sowilo",
-        meaning: "Zon, Gezondheid, Eer, Hulpbronnen, Overwinning, Heelheid, Zuivering",
+        meaning: "Zon, Totaliteit, Succes, Vitaliteit, Ambitie, Heelheid, Zuivering, Gezondheid",
         imageUrl: "assets/backgrounds/16-sowilo.webp"
     },
     {
         id: 17,
         name: "Tiwaz",
-        meaning: "God Tyr, Mannelijkheid, Gerechtigheid, Leiderschap, Logica, Strijd",
+        meaning: "Strijder, Opoffering, Rechtvaardigheid, God Tyr, Consequenties, Zuiverheid, Eer",
         imageUrl: "assets/backgrounds/17-tiwaz.webp"
     },
     {
         id: 18,
         name: "Berkana",
-        meaning: "Berkenboom, Vrouwelijkheid, Vruchtbaarheid, Genezing, Regeneratie, Geboorte",
+        meaning: "Berk, MoederAarde, Vruchtbaarheid, Groeikracht, Regeneratie, Geboorte, Pionieren, Maanmagie",
         imageUrl: "assets/backgrounds/18-berkana.webp"
     },
     {
         id: 19,
         name: "Ehwaz",
-        meaning: "Paard, Transport, Beweging, Vooruitgang, Vertrouwen, Verandering",
+        meaning: "Paard, Leiderschap, Beweging, Zelfbeheersing, Actie, Samenwerking, Handelen",
         imageUrl: "assets/backgrounds/19-ehwaz.webp"
     },
     {
         id: 20,
         name: "Mannaz",
-        meaning: "Mensheid, Individualiteit, Vriendschap, Samenleving, Samenwerking, Hulp",
+        meaning: "Mensheid, Mens, Bewustwording, Samenleving, Zelfaanvaarding, Grens, Spiegel",
         imageUrl: "assets/backgrounds/20-mannaz.webp"
     },
     {
         id: 21,
         name: "Laguz",
-        meaning: "Water, Intuïtie, Emoties, Stroming, Vernieuwing, Dromen, Hoop & Angst",
+        meaning: "ater, Intuïtie, Fantasie, Stromen, Creativiteit, Flow, Beweging, Ontdekking, Zuivering",
         imageUrl: "assets/backgrounds/21-laguz.webp"
     },
     {
         id: 22,
         name: "Inguz",
-        meaning: "Vruchtbaarheid, Kracht, Potentieel, Innerlijke Kracht, Vitaliteit, Groei",
+        meaning: "Vruchtbaarheid, Potentieel, Intense verbondenheid, Veiligheid, Geborgenheid",
         imageUrl: "assets/backgrounds/22-inguz.webp"
     },
     {
         id: 23,
         name: "Othala",
-        meaning: "Erfenis, Voorouders, Bezittingen, Erfgoed, Ervaring, Waarde, Thuis",
+        meaning: "rfenis, Voorouders, Cultuur, Erfgoed, Normen en Waarden, Thuis, Scheiding, Keuze",
         imageUrl: "assets/backgrounds/23-othala.webp"
     },
     {
         id: 24,
         name: "Dagaz",
-        meaning: "Dageraad, Ontwaken, Zekerheid, Verlichting, Voltooiing, Hoop, Transformatie",
+        meaning: "Dageraad, Ontwaken, Duidelijkheid, Transformatie, Voltooiing, Integratie, Licht, Helderheid",
         imageUrl: "assets/backgrounds/24-dagaz.webp"
     }
 ]; 
